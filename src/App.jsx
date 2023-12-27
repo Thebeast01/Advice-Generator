@@ -22,10 +22,10 @@ function App() {
 			<div className='main'>
 			<p>Advice #{advice.id}</p>
 				<h1 className='Quotes'>"{advice.advice}"</h1>
-				<img className='divider mt-7' src="../images/pattern-divider-desktop.svg"/>
+				<img className='divider mt-7' src="./images/pattern-divider-desktop.svg"/>
 			</div>
 				<button className="dice" onClick={getAdvice}>
-				<img src="../images/icon-dice.svg"  />
+				<img src="./images/icon-dice.svg"  />
 				</button>
 			</div>
 			<Footer />
