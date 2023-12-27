@@ -19,7 +19,7 @@ function App() {
 	return (
 		<>
 			<div className='container'>
-			div className='main'>
+				<div className='main'>
 					<p>Advice #{advice.id}</p>
 					<h1 className='Quotes'>"{advice.advice}"</h1>
 					<span className='divider'></span>
