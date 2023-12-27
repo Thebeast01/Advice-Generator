@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Work+Sans:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: hsl(218, 23%, 16%);
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content :center;
+  align-items:center;
+  overflow-x: hidden;
+}
+.container{
+  background-color: hsl(217, 19%, 24%);
+  height: 350px ;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  justify-content: space-between;
+}
+.container p{
+  margin: 30px;
+  font-family: "Manrope" , sans-serif;
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size:14px ;
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Quotes {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  padding:0 20px ;
+}
+
+.dice{
+  background-color:hsl(150, 100%, 66%) ;
+  padding: 16px;
+  height : 60px ;
+  width: 60px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: relative;
+  bottom:-30px ;
+  border-radius: 100%;
+}
+.dice:hover{
+  box-shadow: 0 0 2rem hsl(150, 100%, 66%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 1px;
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 522px) {
+  .container {
+    width: 400px;
+    height: 300px;
+
+  }
+  .container p{
+    font-size: 12px;
+  }
+  .Quotes{
+    font-size: 24px;
+  }
+
+}
+@media  screen and (max-width: 425px) {
+  .container{
+    width: 350px;
+  }
+  .container p{
+    font-size: 10px;
+  }
+  .Quotes{
+    padding: 0 10px;
+    font-size: 18px;
+
+  }
+}
