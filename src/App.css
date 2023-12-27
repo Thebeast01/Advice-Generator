@@ -67,6 +67,24 @@ body{
 .dice:hover{
   box-shadow: 0 0 2rem hsl(150, 100%, 66%);
 }
+.image-dice {
+  background: url(../images/icon-dice.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+}
+
+.divider {
+  background-image: url(../images/pattern-divider-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 20px;
+  margin-top: 1.75rem;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

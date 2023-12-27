@@ -19,13 +19,13 @@ function App() {
 	return (
 		<>
 			<div className='container'>
-			<div className='main'>
-			<p>Advice #{advice.id}</p>
-				<h1 className='Quotes'>"{advice.advice}"</h1>
-				<img className='divider mt-7' src="../images/pattern-divider-desktop.svg"/>
-			</div>
-				<button className="dice" onClick={getAdvice}>
-				<img src="../images/icon-dice.svg"  />
+				<div className='main'>
+					<p>Advice #{advice.id}</p>
+					<h1 className='Quotes'>"{advice.advice}"</h1>
+					<span className='divider'></span>
+				</div>
+				<button className='dice' onClick={getAdvice}>
+					<span className='image-dice'></span>
 				</button>
 			</div>
 			<Footer />
